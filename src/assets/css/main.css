@@ -1,0 +1,74 @@
+.router-link-exact-active {
+  font-weight: bold;
+  color: black;
+}
+
+#my-border,
+#my-border-no-hover {
+  -webkit-box-shadow: 4px 3px 0px 1px rgb(0, 0, 0) !important;
+  -moz-box-shadow: 4px 3px 0px 1px rgb(0, 0, 0) !important;
+  box-shadow: 4px 3px 0px 0px rgb(0, 0, 0) !important;
+  border: 2px solid black;
+}
+
+#my-border-nav {
+  -webkit-box-shadow: 4px 3px 0px 1px rgb(0, 0, 0) !important;
+  -moz-box-shadow: 4px 3px 0px 1px rgb(0, 0, 0) !important;
+  box-shadow: 0px 3px 0px 0px rgb(0, 0, 0) !important;
+  border: 2px solid black;
+}
+
+#my-border-bot {
+  border-bottom: 2px solid black;
+}
+
+/* #my-border-bot-top {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+} */
+
+#hr-border {
+  width: 50%;
+  border: 2px solid black;
+}
+
+#my-border:hover,
+#my-border:focus,
+#my-border:active {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-box-shadow: 2px 2px 0px 1px rgb(0, 0, 0) !important;
+  -moz-box-shadow: 2px 2px 0px 1px rgb(0, 0, 0) !important;
+  box-shadow: 2px 2px 0px 0px rgb(0, 0, 0) !important;
+}
+
+/* custom table bootsrtap */
+.table-fixed tbody {
+  height: 349px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+  float: left;
+  position: relative;
+}
+
+.table-fixed tbody td::after,
+.table-fixed tbody th::after,
+.table-fixed thead > tr > th::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
