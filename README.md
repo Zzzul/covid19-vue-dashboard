@@ -27,4 +27,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### Lisensi 
-<a href="https://github.com/Zzzul/waspda-corona/blob/master/license.txt" target="_blank">MIT License</a>
+MIT License
