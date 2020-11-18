@@ -1,4 +1,4 @@
-# covid19-visualized
+# covid19-dashboard
 
 <img src="https://user-images.githubusercontent.com/62506582/95714366-51ad4300-0c92-11eb-856b-d3db80e27349.png" alt="Screenshoot" width="100%">
 
